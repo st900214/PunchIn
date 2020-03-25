@@ -1,0 +1,25 @@
+﻿[*.cs]
+
+# SA1208: System using directives should be placed before other using directives
+dotnet_diagnostic.SA1208.severity = none
+
+# SA1513: Closing brace should be followed by blank line
+dotnet_diagnostic.SA1513.severity = none
+
+# SA1516: Elements should be separated by blank line
+dotnet_diagnostic.SA1516.severity = none
+
+# SA1601: Partial elements should be documented
+dotnet_diagnostic.SA1601.severity = none
+
+# SA1600: Elements should be documented
+dotnet_diagnostic.SA1600.severity = none
+
+# SA1300: Element should begin with upper-case letter
+dotnet_diagnostic.SA1300.severity = none
+
+# SA1201: Elements should appear in the correct order
+dotnet_diagnostic.SA1201.severity = none
+
+# IDE0037: 使用推斷的成員名稱
+dotnet_style_prefer_inferred_tuple_names = true:none
